@@ -13,24 +13,24 @@ mean(): Mean value
 std(): Standard deviation
 
 These signals are used to estimate variables of the feature vector for each pattern:  
-'[XYZ]' is used to denote 3-axial signals in the X, Y or Z directions.
+'XYZ' is used to denote 3-axial signals in the X, Y or Z directions.
 
 | NAME        | DESCRIPTION           | VALUES OR EXPLANATION  |
 | -----------: |:---------------------:|:----------------------:|
 | Subject     | identifier of the subject | 1-30 |
 | Activity    | activity label   | WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS<br /> SITTING STANDING LAYING |
-| timeBodyAccelerometer.mean...[X|Y|Z]|                                                  |    -1:1 |
-| timeBodyAccelerometer.std...[X|Y|Z] |                                                  |    -1:1 |
-| timeGravityAccelerometer.mean...[X|Y|Z] |                                                  |    -1:1 |
-| timeGravityAccelerometer.std...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyAccelerometerJerk.mean...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyAccelerometerJerk.std...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyGyroscope.mean...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyGyroscope.std...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyGyroscopeJerk.mean...[X|Y|Z] |                                                  |    -1:1 |
-| timeBodyGyroscopeJerk.std...[X|Y|Z] |                                                  |    -1:1 |
+| timeBodyAccelerometer.mean...XYZ|                                                  |    -1:1 |
+| timeBodyAccelerometer.std...XYZ |                                                  |    -1:1 |
+| timeGravityAccelerometer.mean...XYZ |                                                  |    -1:1 |
+| timeGravityAccelerometer.std...XYZ |                                                  |    -1:1 |
+| timeBodyAccelerometerJerk.mean...XYZ |                                                  |    -1:1 |
+| timeBodyAccelerometerJerk.std...XYZ |                                                  |    -1:1 |
+| timeBodyGyroscope.mean...XYZ |                                                  |    -1:1 |
+| timeBodyGyroscope.std...XYZ |                                                  |    -1:1 |
+| timeBodyGyroscopeJerk.mean...XYZ |                                                  |    -1:1 |
+| timeBodyGyroscopeJerk.std...XYZ |                                                  |    -1:1 |
 | timeBodyAccelerometerMagnitude.mean.. |                                                  |    -1:1 |
-| timeBodyAccelerometerMagnitude.std..[X|Y|Z] |                                                  |    -1:1 |
+| timeBodyAccelerometerMagnitude.std..XYZ |                                                  |    -1:1 |
 | timeGravityAccelerometerMagnitude.mean.. |                                                  |    -1:1 |
 | timeGravityAccelerometerMagnitude.std.. |                                                  |    -1:1 |
 | timeBodyAccelerometerJerkMagnitude.mean.. |                                                  |    -1:1 |
@@ -39,12 +39,12 @@ These signals are used to estimate variables of the feature vector for each patt
 | timeBodyGyroscopeMagnitude.std.. |                                                  |    -1:1 |
 | timeBodyGyroscopeJerkMagnitude.mean.. |                                                  |    -1:1 |
 | timeBodyGyroscopeJerkMagnitude.std.. |                                                  |    -1:1 |
-| frequencyBodyAccelerometer.mean...[X|Y|Z] |                                                  |    -1:1 |
-| frequencyBodyAccelerometer.std...[X|Y|Z] |                                                  |    -1:1 |
-| frequencyBodyAccelerometerJerk.mean...[X|Y|Z] |                                                  |    -1:1 |
-| frequencyBodyAccelerometerJerk.std...[X|Y|Z] |                                                  |    -1:1 |
-| frequencyBodyGyroscope.mean...[X|Y|Z] |                                                  |    -1:1 |
-| frequencyBodyGyroscope.std...[X|Y|Z] |                                                  |    -1:1 |
+| frequencyBodyAccelerometer.mean...XYZ |                                                  |    -1:1 |
+| frequencyBodyAccelerometer.std...XYZ |                                                  |    -1:1 |
+| frequencyBodyAccelerometerJerk.mean...XYZ |                                                  |    -1:1 |
+| frequencyBodyAccelerometerJerk.std...XYZ |                                                  |    -1:1 |
+| frequencyBodyGyroscope.mean...XYZ |                                                  |    -1:1 |
+| frequencyBodyGyroscope.std...XYZ |                                                  |    -1:1 |
 | frequencyBodyAccelerometerMagnitude.mean.. |                                                  |    -1:1 |
 | frequencyBodyAccelerometerMagnitude.std.. |                                                  |    -1:1 |
 | frequencyBodyAccelerometerJerkMagnitude.mean.. |                                                  |    -1:1 |
