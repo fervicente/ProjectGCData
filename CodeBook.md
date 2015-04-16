@@ -9,8 +9,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 The set of measures that are estimated from these signals are: 
 
-mean(): Mean value 
-std(): Standard deviation
+*mean(): Mean value 
+*std(): Standard deviation
 
 These signals are used to estimate variables of the feature vector for each pattern:  
 'XYZ' is used to denote 3-axial signals in the X, Y or Z directions.
